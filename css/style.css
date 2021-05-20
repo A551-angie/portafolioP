@@ -6,7 +6,7 @@ html {
 	background: #fff;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif !important;
 	font-size: 15px;
 	font-weight: 400;
 	background: #555;
@@ -78,7 +78,7 @@ header.smaller.scroll-light #mainmenu a, header.header-mobile.header-light #main
 	color: #333;
 }
 #mainmenu {
-	font-family: "Nunito";
+	/*font-family: "Nunito";*/
 	float: right;
 	font-size: 14px;
 	font-weight: 500;
@@ -310,7 +310,7 @@ a.btn-custom, .btn-custom {
 }
 h1, h2, h3, h4, h5, h6,
 .h1_big {
-	font-family: "Nunito";
+	/*font-family: "Nunito";*/
 	font-weight: 400;
 	color: #404040;
 }
