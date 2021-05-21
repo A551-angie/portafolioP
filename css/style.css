@@ -581,12 +581,24 @@ animation: blink 0.7s infinite;
 .size40 {
 	font-size: 40px;
 }
+.size20 {
+	font-size: 25px;
+	
+}
+.size20:hover {
+	font-size: 26px;
+	color:white;
+	
+}
 .typed-strings p {
 	position: absolute;
 }
 a, img {
 	outline: 0;
 	border-radius: 20px;
+}
+i{
+	padding: 5px;
 }
 @media only screen and (max-width: 992px) {
 	.text-center-sm {
@@ -692,7 +704,7 @@ header.header-mobile #mainmenu li a {
 		margin-bottom: 30px;
 	}
 .container .col-md-12 {
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 #mainmenu a span{
 		display:none;
